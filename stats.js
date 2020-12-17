@@ -1,6 +1,7 @@
 // APP MEMORIA ( Pequeña para saber la cantidad de memoria y el porcetaje de la misma )
 
 const os = require("os");
+const log = require('./logger')
 
 //Función Global
 setInterval(() => {
@@ -18,4 +19,6 @@ setInterval(() => {
   };
   console.clear()
   console.table(stats);
+
+  log(`${JSON.stringify(stats)}\n`)
 }, 1000);
