@@ -3,6 +3,14 @@
         {
             "name": "Github",
             "url": "https://github.com/Diego-Dos-Santos"
+        },
+        {
+            "name": "Google",
+            "url": "https://google.com"
+        },
+        {
+            "name": "Youtube",
+            "url": "https://youtube.com"
         }
     ]
 }

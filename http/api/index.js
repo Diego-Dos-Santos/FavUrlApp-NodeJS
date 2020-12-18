@@ -8,9 +8,9 @@ const data = require('./urls.json')
 
 
 function writeFile(cb){
-    fs.writeFile(
+    return fs.writeFile(
         path.join(__dirname, 'urls.json'),
-        JSON.stringify(data,null, 2),
+        JSON.stringify(data),
         err => {
             if (err) throw err
 
